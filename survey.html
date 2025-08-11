@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+
+</head>
+<body>
+   <div id="container">
+       <div id="box">
+         <h1 id="title">Students Survey Form</h1>
+         <p id="description">This form is regarding your information</p>
+           <div id="formbox">
+             <form id="survey-form">
+               <label for="name">Name</label>
+               <br>
+               <br>
+               <input type="text" placeholder="Enter your name" required id="name">
+               <br>
+               <br>
+               <br>
+               <label for="email">Email</label>
+               <br>
+               <br>
+                <input type="email" placeholder="Enter your email" required id="email">
+                <br>
+               <br>
+               <br>
+                <label for="number">Phone Number</label>
+                  <br>
+                  <br>
+                <input type="text" placeholder="Enter your Phone number" required id="number" max="20" min="20">
+                  <br>
+                  <br>
+                   <br>
+                  <label for="branch">Select your branch</label>
+                  <br>
+                  <br>
+<select name="branch" id="branch" >
+  <option value="none" >Select your branch</option>
+  <option value="CSE-Core">CSE-Core</option>
+   <option value="CSE-Ds">CSE-Ds</option>
+    <option value="CSE-Ai">CSE-Ai</option>
+     <option value="Ec">Ec</option>
+      <option value="Civil">Civil</option>
+       <option value="Me">Me</option>
+        <option value="Ex">Ex</option>
+         <option value="Diploma">Diploma</option>
+</select>
+<br>
+<br><div id="radio">
+<p>Select Your Current Semester</p>
+<br>
+<input type="radio" name="Semester" id="first"><label for="first">First</label><br><br>
+<input type="radio" name="Semester" id="second"><label for="second">Second</label><br><br>
+<input type="radio" name="Semester" id="third"><label for="third">Third</label><br><br>
+<input type="radio" name="Semester" id="fourth"><label for="fourth">Fourth</label><br><br>
+<input type="radio" name="Semester" id="fiveth"><label for="fiveth">Fiveth</label><br><br>
+<input type="radio" name="Semester" id="sixth"><label for="sixth">Sixth</label><br><br>
+<input type="radio" name="Semester" id="seventh"><label for="seventh">Seventh</label><br><br>
+<input type="radio" name="Semester" id="eighth"><label for="eighth">Eighth</label><br><br>
+</div>
+<br>
+<br>
+<div id="status">
+<p>Select Your Current Status</p>
+<br>
+<select name="Status" id="Status">
+  <option value="none">Select Your Current Status</option>
+  <option value="pass">Pass</option>
+  <option value="fail">Fail</option>
+  <option value="sumplimentry1">Supplimentry in 1 subject</option>
+  <option value="sumplimentry2">Supplimentry in 2 subject</option>
+  <option value="sumplimentryabove">Supplimentry in above 2 subject</option>
+  
+</select>
+</div>
+<br>
+<br>
+<div id="point">
+  <p>Expert in ? </p>
+  <br><br>
+  <input type="checkbox" id="1"><label for="1">Frontend</label><br><br>
+  <input type="checkbox" id="2"><label for="2">Backend</label><br><br>
+  <input type="checkbox" id="3"><label for="3">Full-stach</label><br><br>
+  <input type="checkbox" id="4"><label for="4">Java</label><br><br>
+  <input type="checkbox" id="1"><label for="5">Data analytics</label><br><br>
+  <input type="checkbox" id="1"><label for="6">Cyber security</label><br><br>
+  <input type="checkbox" id="1"><label for="7">Other</label><br><br>
+</div>
+<br><br>
+<div id="comment">
+<p>Any Comments Or Suggetions ?</p>
+<br>
+<textarea name="comment" id="" placeholder="Enter your comment here...."></textarea>
+</div>
+<br>
+<br>
+<button>Submit</button>
+
+             </form>
+     
+   </div>
+     
+   </div>
+   </div>
+</body>
+</html>
